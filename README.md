@@ -1,2 +1,2 @@
-# openbox-configuration
-My openbox configuration files. This config will give openbox the ability to tile with the click of a few keys 
+# random-configuration-files
+The openbox configuration gives openbox the ability to tile windows  
