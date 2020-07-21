@@ -62,33 +62,22 @@ Once you have done that you will have to reboot your machine for the changes to 
 
 ## Keybindings
 
-`Super+Enter` open a terminal
-
-`Super+Arrow-keys` cycle workspaces
-
-`Super+1-7` go to specified workspace
-
-`Alt+arrow-keys` make window occupy half of that area of the screen
-
-`Alt+Shift+hjkl` make window occupy that edge of the screen (four window tiling)
-
-`Ctrl+arrow-keys` cycle focus in that direction
-
-`Super+Shift+n` open nitrogen
-
-`Super+Shift+l` open libreoffice 
-
-`Super+Shift+s` switch to standard resolution (1920x1080)
-
-`Super+f` open a file manager
-
-`Super+w` open a web browser
-
-`Super+q` quit any window
-
-`Ctrl+f` make a window fullsreen with gaps
-
-`Super+Shift+d` run dmenu
+| keybinding | function |
+|-----------:|----------|
+|`Super+Enter`| open a terminal|
+|`Super+Arrow-keys`| cycle workspaces|
+|`Super+1-7`| go to specified workspace|
+|`Alt+arrow-keys`| make window occupy half of that area of the screen|
+|`Alt+Shift+hjkl`| make window occupy that edge of the screen (four window tiling)|
+|`Ctrl+arrow-keys`| cycle focus in that direction|
+|`Super+Shift+n`| open nitrogen|
+|`Super+Shift+l`| open libreoffice| 
+|`Super+Shift+s`| switch to standard resolution (1920x1080)|
+|`Super+f`| open a file manager|
+|`Super+w`| open a web browser|
+|`Super+q`| quit any window|
+|`Ctrl+f`| make a window fullsreen with gaps|
+|`Super+Shift+d`| run dmenu|
 
 ## Updates
 
