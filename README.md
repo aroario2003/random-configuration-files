@@ -60,6 +60,32 @@ Within `~/.config/random-configuration-files` execute the following:
 
 Once you have done that you will have to reboot your machine for the changes to take effect.
 
+## Keybindings
+
+`Super+Enter` open a terminal
+
+`Super+Arrow-keys` cycle workspaces
+
+`Super+1-7` go to specified workspace
+
+`Alt+arrow-keys` make window occupy half of that area of the screen
+
+`Alt+Shift+hjkl` make window occupy that edge of the screen (four window tiling)
+
+`Ctrl+arrow-keys` cycle focus in that direction
+
+`Super+Shift+n` open nitrogen
+
+`Super+Shift+l` open libreoffice 
+
+`Super+Shift+s` switch to standard resolution (1920x1080)
+
+`Super+f` open a file manager
+
+`Super+w` open a web browser
+
+`Super+q` quit any window
+
 ## Updates
 
 This repository will be updated every week or two once I finish putting in all the configuration files that I want to put in here. I will be putting my `.zshrc` file in here shortly and I will be customizing and updating it along with the other ocnfiguration files. If you have any questions or concerns please let me know. 
