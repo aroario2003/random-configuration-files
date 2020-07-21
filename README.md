@@ -59,3 +59,11 @@ Within `~/.config/random-configuration-files` execute the following:
 `sudo cp -r ~/.config/random-configuration-files/openbox-3 /usr/share/themes/PacBang`
 
 Once you have done that you will have to reboot your machine for the changes to take effect.
+
+## Updates
+
+This repository will be updated every week or two once I finish putting in all the configuration files that I want to put in here. I will be putting my `.zshrc` file in here shortly and I will be customizing and updating it along with the other ocnfiguration files. If you have any questions or concerns please let me know. 
+
+## Contact Me
+
+If you encounter an error or think that my configuration could be improved, you can DM me in Discord my username is `thelegend27#1582` please contact me there if you have any questions or concerns.
