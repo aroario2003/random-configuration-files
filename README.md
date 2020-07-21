@@ -81,7 +81,7 @@ Once you have done that you will have to reboot your machine for the changes to 
 
 ## Good to Know
 
-There is an `autostart` file within the `openbox` directory which will spawn a conky and tint2 on startup, Also a polybar instance is set to launch on startup. I have uploaded the polybar configuration folder and will be adding the instructions for making it work soon. For now, just earse that from the file.
+There is an `autostart` file within the `openbox` directory which will spawn a conky and tint2 on startup, Also a polybar instance is set to launch on startup. I have uploaded the polybar configuration folder and will be adding the instructions for making it work soon. Please make sure to take a look at the `autostart` file and make any changes that are necessary to  fit your needs.
 
 ## Updates
 
