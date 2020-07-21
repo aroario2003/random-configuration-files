@@ -2,7 +2,7 @@
 
 ## Information
 
-The openbox configuration gives openbox the ability to tile windows.  
+The openbox configuration gives openbox the ability to tile windows. This configuration is for people who want to experiment with tiling windows and discover if a tiling window manager is right for them.  
 
 ## Installation
 `
