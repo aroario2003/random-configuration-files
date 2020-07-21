@@ -79,6 +79,10 @@ Once you have done that you will have to reboot your machine for the changes to 
 |`Ctrl+f`| make a window fullsreen with gaps|
 |`Super+Shift+d`| run dmenu|
 
+## Good to Know
+
+There is an `autostart` file within the `openbox` directory which will spawn a conky and tint2 on startup,  
+
 ## Updates
 
 This repository will be updated every week or two once I finish putting in all the configuration files that I want to put in here. I will be putting my `.zshrc` file in here shortly and I will be customizing and updating it along with the other ocnfiguration files. In this section I will be letting you know whenever I make changes to a file and what I did. If you have any questions or concerns please let me know. 
