@@ -88,6 +88,8 @@ Once you have done that you will have to reboot your machine for the changes to 
 
 `Ctrl+f` make a window fullsreen with gaps
 
+`Super+Shift+d` run dmenu
+
 ## Updates
 
 This repository will be updated every week or two once I finish putting in all the configuration files that I want to put in here. I will be putting my `.zshrc` file in here shortly and I will be customizing and updating it along with the other ocnfiguration files. If you have any questions or concerns please let me know. 
