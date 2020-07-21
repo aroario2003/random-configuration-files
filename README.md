@@ -1,8 +1,9 @@
 # random-configuration-files
-The openbox configuration gives openbox the ability to tile windows  
 
-Read the important information document in Libreoffice.
+##information
+The openbox configuration gives openbox the ability to tile windows.Read the important information document in Libreoffice.
+All information about keybindings is in the important information file.
 
-All information about keybindings is in important information.
+##installation
 
-
+'git clone https://github.com/aroario2003/random-configuration-files.git'
