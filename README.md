@@ -6,4 +6,4 @@ All information about keybindings is in the important information file.
 
 ##installation
 
-'git clone https://github.com/aroario2003/random-configuration-files.git'
+- 'git clone https://github.com/aroario2003/random-configuration-files.git'
