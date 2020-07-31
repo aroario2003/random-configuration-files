@@ -85,7 +85,7 @@ There is an `autostart` file within the `openbox` directory which will spawn a c
 
 ## Updates
 
-This repository will be updated every week or two once I finish putting in all the configuration files that I want to put in here. I will be putting my `.zshrc` file in here shortly and I will be customizing and updating it along with the other ocnfiguration files. In this section I will be letting you know whenever I make changes to a file and what I did. If you have any questions or concerns please let me know. 
+Recently I have been working on configuring `herbstluftwm`, so far I have configured it to not have a frame and have added keybindings. This repository will be updated every week or two once I finish putting in all the configuration files that I want to put in here. I will be putting my `.zshrc` file in here shortly and I will be customizing and updating it along with the other ocnfiguration files. In this section I will be letting you know whenever I make changes to a file and what I did. If you have any questions or concerns please let me know. 
 
 ## Contact Me
 
