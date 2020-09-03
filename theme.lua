@@ -13,8 +13,8 @@ local theme = {}
 
 theme.font          = "sans 11"
 
-theme.bg_normal     = "#004ce6"
-theme.bg_focus      = "#ff0000"
+theme.bg_normal     = "#00afff"
+theme.bg_focus      = "#008700"
 theme.bg_urgent     = "#ff0000"
 theme.bg_minimize   = "#444444"
 theme.bg_systray    = theme.bg_normal
@@ -24,10 +24,10 @@ theme.fg_focus      = "#000000"
 theme.fg_urgent     = "#ffffff"
 theme.fg_minimize   = "#ffffff"
 
-theme.useless_gap   = dpi(7)
+theme.useless_gap   = dpi(10)
 theme.border_width  = dpi(2)
-theme.border_normal = "#00afff"
-theme.border_focus  = "#ff0000"
+theme.border_normal = "#0087ff"
+theme.border_focus  = "#005f00"
 theme.border_marked = "#91231c"
 
 -- There are other variable sets
