@@ -1,0 +1,124 @@
+super + Return
+     termite
+
+super + d
+     discord
+
+super + shift + Return
+          rofi -show run -font "Source Code Pro 11" -color-normal "#04152E,#ffffff,#04152E,#2E93A7,#ffffff" -color-window "#04152E,#005fff,#E4AD79"
+
+super + shift + e
+        rofi -show emoji -font "joypixels 11" -color-normal "#04152E,#ffffff,#04152E,#2E93A7,#ffffff" -color-window "#04152E,#005fff,#E4AD79"
+
+super + shift + k
+     cat ~/.config/sxhkd/sxhkdrc | rofi -show run -font "Source Code Pro 11" -color-normal "#04152E,#ffffff,#04152E,#2E93A7,#ffffff" -color-window "#04152E,#005fff,#E4AD79" -dmenu
+
+super + shift + w
+      rofi -show window -font "Source Code Pro 11" -color-normal "#04152E,#ffffff,#04152E,#2E93A7,#ffffff" -color-window "#04152E,#005fff,#E4AD79"     
+
+control + k
+     cat ~/.config/ranger/rc.conf | grep 'map' | rofi -show run -font "Source Code Pro 11" -color-normal "#04152E,#ffffff,#04152E,#2E93A7,#ffffff" -color-window "#04152E,#005fff,#E4AD79" -dmenu
+
+control + shift + q
+      for win in $(bspc query -N -n .leaf.\!window); do bspc node $win -k; done;
+
+control + p 
+     packages
+
+control + shift + s
+       storage
+
+super + n
+     termite -e newsboat
+
+super + control + f 
+   termite -e ranger
+
+super + i
+    hexchat
+      
+super + w 
+   nitrogen 
+
+super + b
+    firefox 
+
+super + f
+    pcmanfm
+
+super + e
+    thunderbird
+
+super + r 
+   pkill -USR1 -x sxhkd
+
+super + shift + r 
+     bspc wm -r
+
+super + q
+     bspc node -c
+
+super + shift + p
+   killall polybar
+
+super + p
+   polybar example &   
+
+#only use if media keys are not working 
+F2
+ amixer -D pulse sset Master 1%-
+
+F3
+ amixer -D pulse sset Master 1%+
+
+super + shift + 0
+    bspc config top_padding 0
+
+super + m 
+  bsp-layout set tall 1 --master-size 0.5
+
+super + shift + m 
+   bsp-layout set rtall 1 --master-size 0.5        
+
+super + shift + b 
+   bsp-layout set tiled 1 
+
+control + {Left,Down,Up,Right}
+         bspc node --presel-dir {west,south,north,east} -i
+
+super + control + r
+   bspc node @/ -R 90
+
+super + control + {h,j,k,l}
+bspc node -p {west,south,north,east}
+
+super + {1,2,3,4,5}                  
+      bspc desktop -f {1,2,3,4,5}
+
+control + alt + {1,2,3,4,5}
+        bspc node -d {1,2,3,4,5}
+
+super + {Left,Down,Up,Right}
+       bspc node -f {west,south,north,east}
+
+super + shift + {Left,Down,Up,Right}
+         bspc node -s {west,south,north,east}
+
+super + {t,shift + t,s,shift + f}
+       bspc node -t {tiled,pseudo_tiled,floating,fullscreen}         
+
+super + control + {Left,Down,Up,Right}
+         bspc node -z {right -20 0,top 0 20,bottom 0 -20,left 20 0}
+
+super + alt + {Left,Down,Up,Right}
+         bspc node -z {left -20 0,bottom 0 20,top 0 -20,right 20 0}
+
+super + control + {1-9}
+    bspc node -r 0.{1-9} 
+
+super + {h,j,k,l}
+        bspc node -v {-20 0,0 20,0 -20,20 0} 
+
+super + shift + Q
+       bspc quit
+          
